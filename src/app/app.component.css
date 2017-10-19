@@ -1,0 +1,22 @@
+input[type=text], select {
+  width: 80%;
+  font-size: larger;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.error-mesg {
+  color: red;
+}
+
+.result {
+  text-align: center;
+  display: inline-block;
+  background: lightsteelblue;
+  font-size: 25px;
+  width: 100%;
+}

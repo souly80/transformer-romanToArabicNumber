@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center;font-size: 20px;background: lightblue">
+  <h1>
+    Welcome to {{title}}!
+  </h1>
+  <div style="margin-bottom: 20px;">
+    <label>You can convert to Roman Numerals here:
+    </label>
+    <br>
+    <input #inputBox type="text" />
+    <div class="error-mesg" [hidden]="valid">{{errerText}}</div>
+  </div>
+</div>
+<div class="result">
+  <label> Result: {{arabicNumber}}</label>
+</div>
